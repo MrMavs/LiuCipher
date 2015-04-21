@@ -7,7 +7,7 @@ This software is implemented in Python. It allows two nodes to establish a share
 LC aims to be the new standard for encryption. **_Assuming it cannot be cracked_**, it is better than other protocols in the following ways:
 
 * It uses randomly generated keys, meaning **no amount of computational power can decipher intercepted messages.**
-* It is symmetric (single key used to encrypt and decrypt), but unlike other symmetric ciphers; LC allows Alice and Bob to generate a key over an **insecure channel** like the web.
+* It is symmetric (single key used to encrypt and decrypt); but unlike other symmetric ciphers, LC allows Alice and Bob to generate a key over an **insecure channel** like the web.
 
 **Your task**, should you choose to accept it, is to crack LC. In this implementation, LC uses a psuedo-random number generator - the Mersenne Twister. Exploiting the RNG is not a true crack. A valid crack entails exploiting weakness(es) - if any - in the protocol itself.  However, any crack is interesting and worth attempting. A passive attack by signal analysis is one potential path.
 
