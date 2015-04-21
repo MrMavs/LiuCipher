@@ -11,7 +11,7 @@ LC aims to be the new standard for encryption. **_Assuming it cannot be cracked_
 
 **Your task**, should you choose to accept it, is to crack LC. In this implementation, LC uses a psuedo-random number generator - the Mersenne Twister. Exploiting the RNG is not a true crack. A valid crack entails exploiting weakness(es) - if any - in the protocol itself.  However, any crack is interesting and worth attempting. A passive attack by signal analysis is one potential path.
 
-To make the game **clear**, assume Alice and Bob can only communicate via Eve. Before commencing key negotiation, Alice and Bob are reasonably confident the other is whom they claim to be -- the two also share an info-theoretic-secure authenticated public channel to facilitate key corroboration [though such auth is not in this implementation]. 
+To make the game **clear**, assume Alice and Bob can only communicate via Eve. Before commencing key negotiation, Alice and Bob are reasonably confident the other is whom they claim to be -- the two also share an info-theoretic-secure authenticated public channel to facilitate key reconciliation [though such channel is not in this implementation]. 
 
 Also, Eve's computer answers NP-hard questions in P. She has full read/write capability over any transmission, and is blind to Alice / Bob's internal state.
 
