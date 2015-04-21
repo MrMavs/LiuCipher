@@ -2,7 +2,7 @@
 
 LiuCipher (LC) is a security protocol.
 
-This software is implememted in Python. It allows two nodes to establish a shared private key over an open network -- try it out!
+This software is implemented in Python. It allows two nodes to establish a shared private key over an open network -- try it out!
 
 LC aims to be the new standard for encryption. **_Assuming it cannot be cracked_**, it is better than other protocols in the following ways:
 
