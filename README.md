@@ -19,6 +19,8 @@ Documentation can be found in **/doc/index.rst**
 
 Optimal parameter settings are: -n 1250 -tr 20
 
+Tweet a link with your solution [@MrMavs](https://twitter.com/MrMavs)
+
 ッ
 
 ----------------------------------------------
